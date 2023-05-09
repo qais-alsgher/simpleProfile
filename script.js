@@ -326,8 +326,9 @@ class UserData {
     this.renderPosts();
 
     isUpdate = false;
-
     this.resetForm();
+    const submitBtn = document.querySelector(".btn-submit");
+    submitBtn.textContent = "Add Post";
   }
 
   resetForm() {
